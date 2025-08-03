@@ -9,43 +9,47 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
+        <h1>Welcome to Tiernan Does stuff page (My project portfolio)</h1>
         <nav>
-            <ul>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
+            <ul class="nav-list">
+                <li><a href="#projects">Projects</a>
+                    <ul class="dropdown">
+                        <li><a href="project/smart_agriculture.html">Smart Agriculture</a></li>
+                        <li><a href="project/project2.html">Project Two</a></li>
+                        <!-- Add more project links here -->
+                    </ul>
+                </li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="cv.html">CV Summary</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     
     <section id="projects">
-        <h2>Projects</h2>
-        <p>Here are some of the projects I've worked on:</p>
-        <ul>
-            <li>Project 1 - Description</li>
-            <li>Project 2 - Description</li>
-            <li>Project 3 - Description</li>
-        </ul>
+        <h2>Project Directory</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>Environmental Sensing for Smart Agriculture</h3>
+                <p>Developed a network to monitor leaf moisture and soil parameters, sent to a user interface.</p>
+                <a href="project/smart_agriculture.html" class="view-project">View Project</a>
+            </div>
+            <div class="project-item">
+                <h3>Project Two</h3>
+                <p>Description of project two.</p>
+                <a href="project/project2.html" class="view-project">View Project</a>
+            </div>
+            <!-- Add more project-item blocks as needed -->
+        </div>
     </section>
-    
-    <section id="skills">
-        <h2>Skills</h2>
-        <p>These are the skills I possess:</p>
-        <ul>
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-            <li>Skill 3</li>
-        </ul>
-    </section>
-    
+
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>If you'd like to get in touch, please reach out via email at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+        <p>If you'd like to get in touch, please reach out via email at <a href="mailto:tiernan.phillips3@gmail.com">tiernan.phillips3@gmail.com</a>.</p>
     </section>
     
     <footer>
-        <p>&copy; 2023 My Portfolio</p>
+        <p>&copy; 2025 Tiernan Phillips</p>
     </footer>
     
     <script src="scripts/main.js"></script>
